@@ -31,9 +31,10 @@ Git ワークフローを練習するための、意図的なバグがある電�
 
 ## Git ワークフローの練習
 
-1. 新しいブランチを作成: `git checkout -b fix/あなたの名前-bug-fix`
-2. 上記のバグを1つ修正
-3. 変更をステージング: `git add .`
-4. 変更をコミット: `git commit -m "Fix: 修正内容の説明"`
-5. ブランチをプッシュ: `git push origin fix/あなたの名前-bug-fix`
-6. GitHub でプルリクエストを作成
+1. リポジトリをクローン: `git clone <リポジトリのURL>`
+2. 新しいブランチを作成: `git checkout -b fix/あなたの名前-bug-fix`
+3. 上記のバグを1つ修正
+4. 変更をステージング: `git add .`
+5. 変更をコミット: `git commit -m "Fix: 修正内容の説明"`
+6. ブランチをプッシュ: `git push origin fix/あなたの名前-bug-fix`
+7. GitHub でプルリクエストを作成
