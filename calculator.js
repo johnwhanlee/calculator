@@ -38,13 +38,13 @@ function add(a, b) {
 // BUG: This function adds instead of subtracting
 // Fix: Change + to -
 function subtract(a, b) {
-  return a + b;
+  return a - b;
 }
 
 // BUG: This function divides instead of multiplying
 // Fix: Change / to *
 function multiply(a, b) {
-  return a / b;
+  return a * b;
 }
 
 function divide(a, b) {
